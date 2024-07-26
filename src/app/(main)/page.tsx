@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <div className="w-full h-dvh relative">
+      <div className="w-full h-[calc(100dvh-70px)] relative">
         <Image
           src="/hero.jpg"
           alt=""
