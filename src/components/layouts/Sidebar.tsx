@@ -14,7 +14,7 @@ import Filter from "../sidebar/Filter";
 import { useRouter, useSearchParams } from "next/navigation";
 import MatchesAndMessage from "../sidebar/MatchesAndMessage";
 
-const MatchSidebar = () => {
+const Sidebar = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
   const type = searchParams.get("type");
@@ -56,4 +56,4 @@ const MatchSidebar = () => {
   );
 };
 
-export default MatchSidebar;
+export default Sidebar;
